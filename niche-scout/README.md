@@ -35,11 +35,21 @@ Both paths use Claude's native web search. Output degrades significantly without
    - Go to [github.com/caydeai/skills](https://github.com/caydeai/skills)
    - Click the green **Code** button → **Download ZIP**
    - Extract the zip. Inside, find the `niche-scout/` folder.
-2. Zip just the `niche-scout/` folder (so the zip contains SKILL.md at the top level when extracted).
-3. In Claude.ai, go to **Settings → Features**.
-4. Make sure **Code execution** is enabled.
-5. Find the **Custom Skills** section, click **Upload skill**, select your zip file.
-6. The skill is now active in any new Claude conversation. Try saying: "Scout the [your niche] niche for me."
+
+2. Zip JUST the contents of `niche-scout/` (SKILL.md, README.md, examples/ folder) so the zip contains SKILL.md at the top level when extracted.
+   - **Important:** the zip should NOT contain a `niche-scout/` folder at the top level. Open the zip to verify SKILL.md is the first thing you see, not a folder.
+
+3. In Claude.ai, go to **Settings → Capabilities**.
+
+4. Confirm **Code execution and file creation** is enabled (required for skills).
+
+5. Scroll to the **Skills** section. Click the **Customize** link.
+
+6. In the Customize panel, click the **`+`** icon at the top of the Skills column.
+
+7. Select **Upload skill** and choose your `niche-scout.zip` file.
+
+8. The skill is now active. Try saying in a new conversation: "Scout the [your niche] niche for me."
 
 ---
 ### Install on Claude Code
