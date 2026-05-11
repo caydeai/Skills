@@ -19,7 +19,25 @@ For deeper research (search volume trends, daily bestseller tracking, automated 
 
 ## When to use this skill
 
-<!-- TODO Day 10: write trigger phrases section -->
+Auto-triggers when the user wants niche-level research before committing to a build. Natural-language triggers include:
+
+- "Scout the [niche] niche for me"
+- "Is [niche] worth entering?"
+- "Help me research [niche] before I build"
+- "What's the competition like for [niche]?"
+- "Run a niche check on [niche]"
+- "Is there room in the [niche] market?"
+- "Should I start a [niche] business?"
+
+The skill works on three niche types:
+
+- **Identity-based** — "dog mom," "rescue cat owner," "remote worker"
+- **Product-type** — "minimalist wall art," "ceramic mugs," "Notion templates"
+- **Service** — "wedding photography pricing pages," "freelance pixel art commissions," "podcast editing"
+
+If the user provides a vague keyword like "fashion" or "AI tools," the skill will ask one clarifying question to narrow scope before running the research.
+
+If the user has already run a clarifying question elsewhere (e.g. pasted output from another tool), the skill skips clarification and goes straight to research.
 
 ## How it works
 
