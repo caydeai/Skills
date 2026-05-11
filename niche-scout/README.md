@@ -15,35 +15,31 @@ Works on:
 
 ## What you need to run this
 
-`niche-scout` runs on Claude (by Anthropic). Two install paths:
+`niche-scout` is a custom Claude Skill. To run it, you need one of:
 
-**1. Claude.ai** — [claude.ai](https://claude.ai) (free or Pro)
-Free tier handles light use of this skill. Pro ($20/mo, paid directly to Anthropic, not included) recommended for heavy use or running [The Workshop](https://gumroad.com/caydeai/the-workshop)'s full trio without hitting limits.
+**1. Claude.ai** — Pro, Max, Team, or Enterprise plan ($20/mo minimum)
+[claude.ai](https://claude.ai) — Custom Skills are NOT available on the free tier. Code execution must be enabled in Settings.
 
-**2. Claude Code** — [claude.ai/code](https://claude.ai/code) (CLI)
-Same account as Claude.ai. Recommended if you're comfortable with terminal tools.
+**2. Claude Code** — CLI for developers
+[claude.ai/code](https://claude.ai/code) — Filesystem-based, most flexible install path.
 
-Both paths use web search natively. Output degrades significantly without it.
+Both paths use Claude's native web search. Output degrades significantly without it.
 
-> Note: This is similar to how Etsy SEO tools (Sale Samurai, eRank) require an Etsy subscription to function. The skill is the tool; Claude is the engine that runs it.
+> Note: This is similar to how Etsy SEO tools (Sale Samurai, eRank) require an Etsy subscription. The skill is the tool; Claude is the engine that runs it.
 
 ---
 
-## Install
+### Install on Claude.ai
 
-### Claude.ai (web/desktop)
-
-1. Open a new conversation at [claude.ai](https://claude.ai)
-2. [Installation steps TBD — written Day 10 once skill body is complete and install path verified]
-
-### Claude Code
-
-1. From your terminal, navigate to where you keep Claude skills
-2. Clone this repo:
-```bash
-   git clone https://github.com/caydeai/skills.git
-```
-3. [Activation steps TBD — written Day 10 once skill body is complete]
+1. Download the `niche-scout/` folder from this repo:
+   - Go to [github.com/caydeai/skills](https://github.com/caydeai/skills)
+   - Click the green **Code** button → **Download ZIP**
+   - Extract the zip. Inside, find the `niche-scout/` folder.
+2. Zip just the `niche-scout/` folder (so the zip contains SKILL.md at the top level when extracted).
+3. In Claude.ai, go to **Settings → Features**.
+4. Make sure **Code execution** is enabled.
+5. Find the **Custom Skills** section, click **Upload skill**, select your zip file.
+6. The skill is now active in any new Claude conversation. Try saying: "Scout the [your niche] niche for me."
 
 ---
 
