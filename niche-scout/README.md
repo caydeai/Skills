@@ -42,6 +42,25 @@ Both paths use Claude's native web search. Output degrades significantly without
 6. The skill is now active in any new Claude conversation. Try saying: "Scout the [your niche] niche for me."
 
 ---
+### Install on Claude Code
+
+1. Clone the skills repo:
+```bash
+   git clone https://github.com/caydeai/skills.git
+```
+
+2. Copy the `niche-scout` folder into your Claude Code skills directory:
+```bash
+   # Personal (available across all your projects):
+   cp -r skills/niche-scout ~/.claude/skills/
+
+   # OR project-specific (only in current project):
+   cp -r skills/niche-scout .claude/skills/
+```
+
+3. Claude Code auto-discovers the skill on next session start. Try: "Scout the [your niche] niche for me."
+
+---
 
 ## How to use it
 
