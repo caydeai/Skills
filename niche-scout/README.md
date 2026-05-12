@@ -52,20 +52,23 @@ Both paths use Claude's native web search. Output degrades significantly without
 8. The skill is now active. Try saying in a new conversation: "Scout the [your niche] niche for me."
 
 ---
+
 ### Install on Claude Code
 
 1. Clone the skills repo:
+
 ```bash
-   git clone https://github.com/caydeai/skills.git
+git clone https://github.com/caydeai/skills.git
 ```
 
 2. Copy the `niche-scout` folder into your Claude Code skills directory:
-```bash
-   # Personal (available across all your projects):
-   cp -r skills/niche-scout ~/.claude/skills/
 
-   # OR project-specific (only in current project):
-   cp -r skills/niche-scout .claude/skills/
+```bash
+# Personal (available across all your projects):
+cp -r skills/niche-scout ~/.claude/skills/
+
+# OR project-specific (only in current project):
+cp -r skills/niche-scout .claude/skills/
 ```
 
 3. Claude Code auto-discovers the skill on next session start. Try: "Scout the [your niche] niche for me."
@@ -93,11 +96,11 @@ The Workshop also includes:
 - `product-drafter` — turns the product spec into your first working deliverable
 - `launch-stack` — turns the deliverable into a launch checklist with platform-specific content
 - The full CaydeOS framework
-- A live case study (one of my own AI-run stores, updated as it evolves)
+- A live case study — my Etsy shop being run with the framework, updated as it grows
 - Make.com scenarios for the agent layer
 - 60-90 min walkthrough video
 
-Free updates for life to launch-day buyers.
+Free updates for launch-day buyers — new skills, new case studies, framework refinements.
 
 ---
 
