@@ -96,11 +96,9 @@ The Workshop also includes:
 - `product-drafter` — turns the product spec into your first working deliverable
 - `launch-stack` — turns the deliverable into a launch checklist with platform-specific content
 - The full CaydeOS framework
-- A live case study — my Etsy shop being run with the framework, updated as it grows
-- Make.com scenarios for the agent layer
-- 60-90 min walkthrough video
+- Walkthrough video covering the full skill chain end-to-end
 
-Free updates for launch-day buyers — new skills, new case studies, framework refinements.
+Free updates for all buyers — new skills, framework refinements, additional Make.com scenarios.
 
 ---
 
@@ -110,6 +108,6 @@ MIT — see [LICENSE](../LICENSE) in repo root.
 
 ## About
 
-Built by [Cayde](https://tiktok.com/@caydeai) — solo operator running a public 90-day AI agent business build.
+Built by [Cayde Frank](https://tiktok.com/@caydeai) — solo operator running a public 90-day AI agent business build.
 
 Landing page: [caydeai.carrd.co](https://caydeai.carrd.co)
